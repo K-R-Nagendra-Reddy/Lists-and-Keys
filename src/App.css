@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.div-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 50vh;
+  width: 97vw;
+}
+
+.down-container {
+  background-image: linear-gradient(to bottom, #3b82f6, #152850);
+  background-size: cover;
+  overflow-y: scroll;
+}
+.heading-input-alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.input-search-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0px;
+}
+.input-element {
+  height: 15px;
+  width: 120px;
+  border-top: solid #ffffff 1px;
+  border-bottom: solid #ffffff 1px;
+  border-right: solid #ffffff 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search-icon {
+  height: 15px;
+  width: 30px;
+  border: solid #ffffff 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ul-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-play-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.list {
+  list-style-type: none;
+}
+.image-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image-item {
+  height: 60px;
+  width: 80px;
+}
+.name-genre-styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.genre {
+  color: #152850;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.time-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.time {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.no-items-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
